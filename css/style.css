@@ -1,0 +1,150 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#section1 {
+    padding: 20px;
+    background-color: #5337d3;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #5337d3;
+    color: white;
+}
+
+#logo img {
+    max-width: 100%;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+.texts1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#horizontal-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#horizontal-menu li {
+    margin-left: 20px;
+}
+
+#horizontal-menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+
+#horizontal-menu a.active {
+    background-color: #007bff;
+    color: white;
+}
+
+#horizontal-menu a:hover {
+    background-color: #0056b3;
+    color: white;
+}
+#section1 h2 {
+
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+#section1 p {
+
+    font-size: 1.2em;
+    color: #a59ae7;
+    line-height: 1.6;
+}
+#work-with-us {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#work-with-us:hover {
+    background-color: #0056b3;
+}
+.section2 {
+    background-color: #5337d3;
+
+    display: flex;
+    background-color: #5337d3;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin: 20px;
+  }
+  
+  .section-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #007bff;
+
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 0 20px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-right: 20px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 15px;
+  }
+  
+  p {
+    font-size: 1em;
+    color: #666;
+    margin: 0;
+  }
+.titelp2{
+    padding-left:  600px;
+    background-color: #5337d3;
+}
+.ps2{
+    padding-left:  600px;
+    background-color: #5337d3;
+
+}
+.ps3{
+    padding-left: 480px;
+    background-color: #5337d3;
+
+}
+
